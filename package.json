@@ -1,0 +1,44 @@
+{
+  "private": true,
+  "description": "A complete navigation library for React Native",
+  "license": "MIT",
+  "scripts": {
+    "bootstrap": "make bootstrap",
+    "format": "make format",
+    "clean": "make clean",
+    "test": "make test"
+  },
+  "author":
+    "Léo Le Bras <leo.lebrasf@gmail.com> (https://github.com/LeoLeBras/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoLeBras/react-router-navigation.git"
+  },
+  "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "router",
+    "navigation",
+    "navigator"
+  ],
+  "bugs": {
+    "url": "https://github.com/LeoLeBras/react-router-navigation/issues"
+  },
+  "homepage": "https://github.com/LeoLeBras/react-router-navigation#readme",
+  "dependencies": {
+    "babel-eslint": "7.2.3",
+    "babel-jest": "18.0.0",
+    "eslint": "3.19.0",
+    "eslint-config-airbnb": "15.0.1",
+    "eslint-config-airbnb-base": "11.2.0",
+    "eslint-plugin-flowtype": "2.35.0",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jsx-a11y": "5.0.3",
+    "eslint-plugin-react": "7.0.1",
+    "trash-cli": "^1.4.0"
+  },
+  "devDependencies": {
+    "lerna": "^2.1.2"
+  }
+}
